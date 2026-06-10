@@ -30,9 +30,7 @@ A través del procesamiento del dataset, se determinaron las siguientes métrica
 
 ### 1. Crecimiento Acumulado de Ganancias en el Tiempo
 
-<p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_3.png" alt="Evolución Temporal de las Ganancias" width="90%">
-</p>
+import miGrafico desde '../src/assets/Imagen_3.png';
 
 * **Descripción:** Gráfico de líneas temporales con agregación acumulativa (`.cumsum()`) que elimina el ruido de las fluctuaciones diarias para mostrar la velocidad de crecimiento real y la tendencia comercial a largo plazo de cada sucursal.
 * **Insights Clave:**
