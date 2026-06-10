@@ -31,7 +31,7 @@ A través del procesamiento del dataset, se determinaron las siguientes métrica
 ### 1. Crecimiento Acumulado de Ganancias en el Tiempo
 
 <p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_3.webp" alt="Evolución Temporal de las Ganancias" width="90%">
+  <img src="src/content/projects/images/budget-wise/Imagen_3.png" alt="Evolución Temporal de las Ganancias" width="90%">
 </p>
 
 * **Descripción:** Gráfico de líneas temporales con agregación acumulativa (`.cumsum()`) que elimina el ruido de las fluctuaciones diarias para mostrar la velocidad de crecimiento real y la tendencia comercial a largo plazo de cada sucursal.
@@ -45,7 +45,7 @@ A través del procesamiento del dataset, se determinaron las siguientes métrica
 ### 2. Top 5 Productos Más Vendidos por Tienda
 
 <p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_4.webp" alt="Top 5 Productos Más Vendidos por Tienda" width="90%">
+  <img src="src/content/projects/images/budget-wise/Imagen_4.png" alt="Top 5 Productos Más Vendidos por Tienda" width="90%">
 </p>
 
 * **Descripción:** Matriz compacta de subplots utilizando gráficos de barras horizontales independientes para cada tienda. Facilita la lectura directa de cadenas de texto largas y resalta el inventario estrella de forma individualizada.
@@ -62,7 +62,7 @@ A través del procesamiento del dataset, se determinaron las siguientes métrica
 ### 3. Mapa de Calor: Ventas por Tienda y Categoría
 
 <p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_6.webp" alt="Mapa de Calor: Ventas por Tienda y Categoría" width="90%">
+  <img src="src/content/projects/images/budget-wise/Imagen_6.png" alt="Mapa de Calor: Ventas por Tienda y Categoría" width="90%">
 </p>
 
 * **Descripción:** Matriz de correlación cruzada bidimensional (Pivot Table) optimizada con un mapa de calor (`sns.heatmap`). Utiliza una escala cromática secuencial (donde el azul oscuro denota la mayor densidad de ingresos) para identificar la especialización comercial de cada tienda.
@@ -77,7 +77,7 @@ A través del procesamiento del dataset, se determinaron las siguientes métrica
 ### 4. Ventas Totales según el Día de la Semana
 
 <p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_7.webp" alt="Ventas Totales según el Día de la Semana" width="90%">
+  <img src="src/content/projects/images/budget-wise/Imagen_7.png" alt="Ventas Totales según el Día de la Semana" width="90%">
 </p>
 
 * **Descripción:** Gráfico de barras verticales ordenadas cronológicamente de Lunes a Domingo utilizando una paleta degradada (`Blues_r`) para evaluar la estacionalidad diaria de las transacciones.
@@ -92,7 +92,7 @@ A través del procesamiento del dataset, se determinaron las siguientes métrica
 ### 5. Eficiencia de la Fuerza de Ventas (Vendedores)
 
 <p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_5.webp" alt="Eficiencia de la Fuerza de Ventas" width="90%">
+  <img src="src/content/projects/images/budget-wise/Imagen_5.png" alt="Eficiencia de la Fuerza de Ventas" width="90%">
 </p>
 
 * **Descripción:** Evaluación del rendimiento individual del equipo comercial mediante métricas cruzadas de volumen de ingresos y transacciones.
