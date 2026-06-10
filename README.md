@@ -30,7 +30,7 @@ A través del procesamiento del dataset, se determinaron las siguientes métrica
 
 ### 1. Crecimiento Acumulado de Ganancias en el Tiempo
 
-import miGrafico desde '../src/assets/Imagen_3.png';
+![Captura_Proyect_1](https://github.com/jmoraless999/Ventas_tienda/blob/main/Public/Imagen_3.png) 
 
 * **Descripción:** Gráfico de líneas temporales con agregación acumulativa (`.cumsum()`) que elimina el ruido de las fluctuaciones diarias para mostrar la velocidad de crecimiento real y la tendencia comercial a largo plazo de cada sucursal.
 * **Insights Clave:**
@@ -42,9 +42,8 @@ import miGrafico desde '../src/assets/Imagen_3.png';
 
 ### 2. Top 5 Productos Más Vendidos por Tienda
 
-<p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_4.png" alt="Top 5 Productos Más Vendidos por Tienda" width="90%">
-</p>
+![Captura_Proyect_1](https://github.com/jmoraless999/Ventas_tienda/blob/main/Public/Imagen_4.png) 
+
 
 * **Descripción:** Matriz compacta de subplots utilizando gráficos de barras horizontales independientes para cada tienda. Facilita la lectura directa de cadenas de texto largas y resalta el inventario estrella de forma individualizada.
 * **Insights Clave:**
@@ -59,9 +58,7 @@ import miGrafico desde '../src/assets/Imagen_3.png';
 
 ### 3. Mapa de Calor: Ventas por Tienda y Categoría
 
-<p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_6.png" alt="Mapa de Calor: Ventas por Tienda y Categoría" width="90%">
-</p>
+![Captura_Proyect_1](https://github.com/jmoraless999/Ventas_tienda/blob/main/Public/Imagen_6.png) 
 
 * **Descripción:** Matriz de correlación cruzada bidimensional (Pivot Table) optimizada con un mapa de calor (`sns.heatmap`). Utiliza una escala cromática secuencial (donde el azul oscuro denota la mayor densidad de ingresos) para identificar la especialización comercial de cada tienda.
 * **Insights Clave:**
@@ -74,9 +71,8 @@ import miGrafico desde '../src/assets/Imagen_3.png';
 
 ### 4. Ventas Totales según el Día de la Semana
 
-<p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_7.png" alt="Ventas Totales según el Día de la Semana" width="90%">
-</p>
+![Captura_Proyect_1](https://github.com/jmoraless999/Ventas_tienda/blob/main/Public/Imagen_7.png) 
+
 
 * **Descripción:** Gráfico de barras verticales ordenadas cronológicamente de Lunes a Domingo utilizando una paleta degradada (`Blues_r`) para evaluar la estacionalidad diaria de las transacciones.
 * **Insights Clave:**
@@ -89,9 +85,7 @@ import miGrafico desde '../src/assets/Imagen_3.png';
 
 ### 5. Eficiencia de la Fuerza de Ventas (Vendedores)
 
-<p align="center">
-  <img src="src/content/projects/images/budget-wise/Imagen_5.png" alt="Eficiencia de la Fuerza de Ventas" width="90%">
-</p>
+![Captura_Proyect_1](https://github.com/jmoraless999/Ventas_tienda/blob/main/Public/Imagen_5.png) 
 
 * **Descripción:** Evaluación del rendimiento individual del equipo comercial mediante métricas cruzadas de volumen de ingresos y transacciones.
 * **Insights Clave:**
@@ -105,9 +99,3 @@ import miGrafico desde '../src/assets/Imagen_3.png';
 
 ---
 
-## 💡 Conclusiones del Análisis
-1. **Dominio de Sucursales:** La **Tienda E** lidera los ingresos globales con un total vendido superior, seguida muy de cerca por la Tienda D, mientras que la Tienda C presenta el menor volumen de facturación transaccional.
-2. **Fuerza de Ventas:** Los vendedores *José* y *Pedro* representan los pilares comerciales con la mayor recaudación e ingresos totales generados para el negocio.
-3. **Análisis de Concentración:** El mapa de calor permitió identificar con precisión qué departamentos o categorías de producto sostienen el tráfico de clientes en cada sucursal específica.
-
----
