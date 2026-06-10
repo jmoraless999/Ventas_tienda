@@ -24,7 +24,6 @@ A través del procesamiento del dataset, se determinaron las siguientes métrica
 * **Pandas:** Limpieza de datos, manejo de codificación de caracteres, tablas dinámicas (`pivot_table`) y agregaciones avanzadas (`groupby`).
 * **Matplotlib & Seaborn:** Creación de gráficos analíticos (Líneas de crecimiento acumulado, subplots compactos y mapas de calor correlacionales).
 ---
----
 
 ## 📉 Análisis Detallado de Visualizaciones e Insights
 
